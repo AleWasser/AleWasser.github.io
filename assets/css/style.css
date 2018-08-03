@@ -14,7 +14,8 @@ li:hover {
 }
 
 .is-circular {
-    border-radius: 50%;
+    border-radius: 45%;
+    border: solid 2px black;
 }
 
 .is-200x200 {
@@ -29,18 +30,28 @@ li:hover {
 .is-body-personalised {
     height: 400px;
     margin-bottom: 85px;
+    margin-top: 4%;
 }
 
 .is-padding-bottom-5{
     padding-bottom: 5%;
 }
 
+.is-padding-top-5{
+    padding-top: 5%;
+}
+
+.is-padding-top-3{
+    padding-top: 3%;
+}
+
 .is-link{
-    color: #363636;
+    color: blue;
 }
 
 .is-link:hover{
-    color:blue;
+    color: blue;
+    text-decoration: underline solid blue;
 }
 
 .is-social{
@@ -52,6 +63,30 @@ li:hover {
     opacity: 1;
 }
 
+.subtext{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.is-normal-height{
+    height: 10vh;
+}
+
+.is-mega{
+    padding-left: 15px;
+}
+
+.a-none{
+    text-decoration: none !important;
+}
+
+.is-mail{
+    margin-left: 5px;
+}
+.is-projects{
+    padding: 0px 20px;
+}
+
 @media screen and (max-width:900px){
     .is-body-personalised{
         height: auto;
@@ -60,5 +95,8 @@ li:hover {
     }
     .is-padding-bottom-5{
         padding-left: 10%;
+    }
+    #footer{
+        padding-left: 0%;
     }
 }

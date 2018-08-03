@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
@@ -16,7 +16,8 @@
 <body>
 
   <div class="columns is-marginless is-fluid">
-    <div class="column is-half has-background-info is-paddingless">
+    <!-- Comienzo Izquierda -->
+    <div class="column is-half has-background-primary is-paddingless">
       <section class="hero is-large  is-fullheight has-text-centered">
         <!-- Inicio Header contenedor -->
         <div class="hero-head is-margin-top-5">
@@ -26,7 +27,7 @@
             </div>
             <div class="hero-body is-paddingless level-item">
               <figure class="image is-200x200">
-                <img src="assets/img/foto.jpg" class="is-circular" alt="Foto de perfil">
+                <img src="assets/img/perfil.jpg" class="is-circular" alt="Foto de perfil">
               </figure>
             </div>
           </div>
@@ -35,38 +36,46 @@
         <!-- Comienzo body container -->
         <div class="hero is-body-personalised">
           <div class="content">
-            <h3>Me encuentro estudiando la carreara de Programación Web en
+            <h3>Me encuentro estudiando la carrera de Programación Web en
               <a href="https://www.educacionit.com/" class="is-link">educacionIT</a>.
             </h3>
-            <h3>Acutalmente me desempeño como desarrollador web en una
+            <h3>Actualmente me desempeño como desarrollador web en una
               <a href="http://abm.la/" class="is-link">una empresa de publicidad</a>.</h3>
             <h3>
               Las técnologias que uso,y profundizo día a día son:
             </h3>
             <div class="columns is-margin-top-5">
               <div class="column">
-                <h4>Front-End:</h4>
+                <h4 class="subtitle is-5">Front-End:</h4>
                 <ul class="has-text-left">
-                  <li>Javascript Vanilla (ECMA6)</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Javascript Vanilla
+                    <span class="subtext">(ES6)</span>
+                  </li>
                   <li>Jquery</li>
                   <li>AJAX</li>
-                  <li>VUE</li>
+                  <li>VueJS</li>
                 </ul>
               </div>
               <div class="column">
-                <h4>Back-end:</h4>
+                <h4 class="subtitle is-5">Back-end:</h4>
                 <ul class="has-text-left">
-                  <li>PHP Vanilla PHP 7</li>
+                  <li>PHP
+                    <span class="subtext">(PHP 7)</span>
+                  </li>
                   <li>Laravel</li>
                   <li>CodeIgniter</li>
+                  <li>SQL</li>
                 </ul>
               </div>
               <div class="column">
-                <h4>Otros:</h4>
+                <h4 class="subtitle is-5">Otros:</h4>
                 <ul class="has-text-left">
                   <li>Bootstrap</li>
                   <li>Bulma CSS</li>
                   <li>Axios</li>
+                  <li>Git</li>
                 </ul>
               </div>
             </div>
@@ -78,22 +87,30 @@
           <div class="columns is-mobile is-paddingless">
             <div class="column is-one-fifth">
               <span class="icon is-large">
-                <a href="http://github.com/AleWasser" target="_blank" class="is-social"><i class="fab fa-3x fa-github"></i></a>
+                <a href="http://github.com/AleWasser" target="_blank" class="is-social">
+                  <i class="fab fa-3x fa-github"></i>
+                </a>
               </span>
             </div>
             <div class="column is-one-fifth">
               <span class="icon is-large">
-                <a href="https://twitter.com/AleWasser" target="_blank" class="is-social"><i class="fab fa-3x fa-twitter-square"></i></a>
+                <a href="https://twitter.com/AleWasser" target="_blank" class="is-social">
+                  <i class="fab fa-3x fa-twitter-square"></i>
+                </a>
               </span>
             </div>
             <div class="column is-one-fifth">
               <span class="icon is-large">
-                  <a href="https://www.instagram.com/ale_wasser" target="_blank" class="is-social"><i class="fab fa-3x fa-instagram"></i></a>
+                <a href="https://www.instagram.com/ale_wasser" target="_blank" class="is-social">
+                  <i class="fab fa-3x fa-instagram"></i>
+                </a>
               </span>
             </div>
             <div class="column is-one-fifth">
               <span class="icon is-large">
-                  <a href="https://www.facebook.com/AleWasser" target="_blank" class="is-social"><i class="fab fa-3x fa-facebook-square"></i></a>
+                <a href="https://www.facebook.com/AleWasser" target="_blank" class="is-social">
+                  <i class="fab fa-3x fa-facebook-square"></i>
+                </a>
               </span>
             </div>
           </div>
@@ -101,16 +118,55 @@
         <!-- Fin footer container -->
       </section>
     </div>
-    <div class="column is-half has-background-primary is-paddingless">
+    <!-- Fin Izquierda -->
+    <div class="column is-half  is-paddingless">
       <section class="hero  is-large is-fullheight has-text-centered">
-        <div class="hero-head ">
-          Hola
+        <div class="hero-head has-background-warning is-normal-height level-item">
+          <div class="hero">
+            <p class="is-large">PONER ALGO ACA</p>
+          </div>
         </div>
-        <div class="hero-body is-paddingless ">
-          Como estas
+        <div class="hero-body is-body-personalised" id="is-projects">
+          <div class="container is-fluid">
+            <div class="tile is-ancestor">
+              <div class="tile is-vertical">
+                <div class="tile">
+                  <div class="tile is-parent is-vertical is-6">
+                    <article class="tile is-child notification is-info">
+                      <p class="title is-1">Callejeritos</p>
+                      <p class="is-large">Callejeritos Alte. Brown es una organizacion vecinal sin fines de lucro.</p>
+                      <p class="title is-3 has-text-danger ">[EN PROCESO]</p>
+                    </article>
+                  </div>
+                  <div class="tile is-parent is-6">
+
+                    <article class="tile is-child notification is-success has-text-centered">
+                      <a href="http://mega-bikes.com.ar/" class="a-none" target="_blank">
+                        <p class="title is-1">MegaBikes</p>
+                        <p class="subtitle">Rediseño Megabikes</p>
+                        <figure class="image is-mega">
+                          <img src="assets/img/mega.png">
+                        </figure>
+                      </a>
+                    </article>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="hero-footer">
-          jaja
+        <div class="hero-footer level-item is-padding-bottom-5 has-text-centered has-background-dark has-text-white" id="footer">
+          <div class="hero is-padding-top-3">
+            <div class="hero-head">
+              <i class="fas fa-2x fa-mobile-alt"></i>
+              <p class="is-large">(+54) 9 11-2252-4289</p>
+            </div>
+            <div class="hero-body is-paddingless level-item">
+                <i class="fas  fa-envelope"></i>
+                <p class="is-large is-mail">alejowasser@gmail.com</p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
