@@ -1,7 +1,8 @@
-body{
+body {
     padding-bottom: 0px;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 li {
     cursor: default;
     list-style: none;
@@ -33,70 +34,76 @@ li:hover {
     margin-top: 4%;
 }
 
-.is-padding-bottom-5{
+.is-padding-bottom-5 {
     padding-bottom: 5%;
 }
 
-.is-padding-top-5{
+.is-padding-top-5 {
     padding-top: 5%;
 }
 
-.is-padding-top-3{
+.is-padding-top-3 {
     padding-top: 3%;
 }
 
-.is-link{
+.is-link {
     color: blue;
 }
 
-.is-link:hover{
+.is-link:hover {
     color: blue;
     text-decoration: underline solid blue;
 }
 
-.is-social{
+.is-social {
     color: #363636;
     opacity: 0.8;
 }
 
-.is-social:hover{
+.is-social:hover {
     opacity: 1;
 }
 
-.subtext{
+.subtext {
     font-size: 12px;
     font-weight: lighter;
 }
 
-.is-normal-height{
+.is-normal-height {
     height: 10vh;
 }
 
-.is-mega{
+.is-mega {
     padding-left: 15px;
 }
 
-.a-none{
+.a-none {
     text-decoration: none !important;
 }
 
-.is-mail{
+.is-mail {
     margin-left: 5px;
 }
-.is-projects{
-    padding: 0px 20px;
-}
 
-@media screen and (max-width:900px){
-    .is-body-personalised{
+@media screen and (max-width:768px) {
+    .is-body-personalised {
         height: auto;
         margin-bottom: 40px;
         margin-top: 11%;
     }
-    .is-padding-bottom-5{
+    .is-padding-bottom-5 {
         padding-left: 10%;
     }
-    #footer{
+    #footer {
         padding-left: 0%;
+    }
+    #is-projects {
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width:365px) {
+    #is-projects {
+        padding: 0px;
     }
 }
