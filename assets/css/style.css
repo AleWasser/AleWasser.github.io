@@ -85,6 +85,10 @@ li:hover {
     margin-left: 5px;
 }
 
+.is-padding{
+    padding: 0 !important;
+}
+
 @media screen and (max-width:768px) {
     .is-body-personalised {
         height: auto;
@@ -99,6 +103,9 @@ li:hover {
     }
     #is-projects {
         padding: 0px 20px;
+    }
+    .is-padding{
+        padding: 0.75rem !important;
     }
 }
 
