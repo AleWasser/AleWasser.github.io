@@ -8,171 +8,140 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>@AleWasser</title>
 </head>
 
 <body>
 
-  <div class="columns is-marginless is-fluid">
-    <!-- Comienzo Izquierda -->
-    <div class="column is-half has-background-primary is-padding">
-      <section class="hero is-large  is-fullheight has-text-centered">
-        <!-- Inicio Header contenedor -->
-        <div class="hero-head is-margin-top-5">
-          <div class="hero">
-            <div class="hero-head">
-              <h1 class="title is-1 is-inline-block">ALEJO WASSER</h1>
-            </div>
-            <div class="hero-body is-paddingless level-item">
-              <figure class="image is-200x200">
-                <img src="assets/img/perfil.jpg" class="is-circular" alt="Foto de perfil">
-              </figure>
-            </div>
-          </div>
-        </div>
-        <!-- Fin Header Contenedor -->
-        <!-- Comienzo body container -->
-        <div class="hero is-body-personalised">
-          <div class="content">
-            <h3>Me encuentro estudiando la carrera de Programación Web en
-              <a href="https://www.educacionit.com/" class="is-link">educacionIT</a>.
-            </h3>
-            <h3>Actualmente me desempeño como desarrollador web en una
-              <a href="http://abm.la/" class="is-link">una empresa de publicidad</a>.</h3>
-            <h3>
-              Las técnologias que uso,y profundizo día a día son:
-            </h3>
-            <div class="columns is-margin-top-5">
-              <div class="column">
-                <h4 class="subtitle is-5">Front-End:</h4>
-                <ul class="has-text-left">
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>Javascript Vanilla
-                    <span class="subtext">(ES6)</span>
-                  </li>
-                  <li>Jquery</li>
-                  <li>AJAX</li>
-                  <li>VueJS</li>
-                </ul>
-              </div>
-              <div class="column">
-                <h4 class="subtitle is-5">Back-end:</h4>
-                <ul class="has-text-left">
-                  <li>PHP
-                    <span class="subtext">(PHP 7)</span>
-                  </li>
-                  <li>Laravel</li>
-                  <li>CodeIgniter</li>
-                  <li>SQL</li>
-                </ul>
-              </div>
-              <div class="column">
-                <h4 class="subtitle is-5">Otros:</h4>
-                <ul class="has-text-left">
-                  <li>Bootstrap</li>
-                  <li>Bulma CSS</li>
-                  <li>Axios</li>
-                  <li>Git</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Fin body container -->
-        <!-- Comienzo footer container -->
-        <div class="hero-footer level-item is-padding-bottom-5">
-          <div class="columns is-mobile  is-padding">
-            <div class="column is-one-fifth">
-              <span class="icon is-large">
-                <a href="http://github.com/AleWasser" target="_blank" class="is-social">
-                  <i class="fab fa-3x fa-github"></i>
-                </a>
-              </span>
-            </div>
-            <div class="column is-one-fifth">
-              <span class="icon is-large">
-                <a href="https://twitter.com/AleWasser" target="_blank" class="is-social">
-                  <i class="fab fa-3x fa-twitter-square"></i>
-                </a>
-              </span>
-            </div>
-            <div class="column is-one-fifth">
-              <span class="icon is-large">
-                <a href="https://www.instagram.com/ale_wasser" target="_blank" class="is-social">
-                  <i class="fab fa-3x fa-instagram"></i>
-                </a>
-              </span>
-            </div>
-            <div class="column is-one-fifth">
-              <span class="icon is-large">
-                <a href="https://www.facebook.com/AleWasser" target="_blank" class="is-social">
-                  <i class="fab fa-3x fa-facebook-square"></i>
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-        <!-- Fin footer container -->
-      </section>
+  <header class="container-fluid">
+    <figure id="fotoPerfil" class="mx-auto">
+      <img src="assets/img/perfil.jpg" alt="Foto de perfil" class="img-fluid rounded-circle">
+    </figure>
+    <div class="container text-center">
+      <h1>Alejo Wasser</h1>
+      <p>Desarrollador Web Junior</p>
     </div>
-    <!-- Fin Izquierda -->
-    <div class="column is-half  is-paddingless">
-      <section class="hero  is-large is-fullheight has-text-centered">
-        <div class="hero-head has-background-warning is-normal-height level-item">
-          <div class="hero">
-            <p class="title">MIS PROYECTOS:</p>
-          </div>
-        </div>
-        <div class="hero-body is-body-personalised" id="is-projects">
-          <div class="container is-fluid">
-            <div class="tile is-ancestor">
-              <div class="tile is-vertical">
-                <div class="tile">
-                  <div class="tile is-parent is-vertical  is-6">
-                    <article class="tile is-child notification  is-info">
-                      <p class="title is-1">Callejeritos</p>
-                      <p class="is-large">Callejeritos Alte. Brown es una organizacion vecinal sin fines de lucro.</p>
-                      <p class="title is-5 has-text-danger ">[EN CONSTRUCCIÓN]</p>
-                    </article>
-                  </div>
-                  <div class="tile is-parent is-6">
+  </header>
 
-                    <article class="tile is-child notification is-success has-text-centered">
-                      <a href="http://mega-bikes.com.ar/" class="a-none" target="_blank">
-                        <p class="title is-1">MegaBikes</p>
-                        <p class="subtitle">Rediseño Megabikes</p>
-                        <figure class="image is-mega">
-                          <img src="assets/img/mega.png">
-                        </figure>
-                      </a>
-                    </article>
+  <main>
+    <section class="container-fluid">
 
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div class="container text-center" id="about-me-text">
+        <div class="alert alert-primary" role="alert">
+
+          <h2>
+            <i class="fas fa-user-astronaut"></i>&nbsp;Sobre Mí...</h2>
+        </div>
+        <p>Me encuentro estudiando la carrera de Programación Web en
+          <a href="#">educacionIT.</a>
+        </p>
+        <p>Actualmente me desempeño como desarrollador Web en una una
+          <a href="#">empresa de publicidad.</a>
+        </p>
+      </div>
+
+      <div class="container text-center" id="tools">
+        <h3>Algunas de las tecnologías con las que trabajo día a día son:</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Front-End:</h5>
+            <ul class="text-start">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript Vanilla
+                <span>(ES6)</span>
+              </li>
+              <li>Jquery</li>
+              <li>AJAX</li>
+              <li>VueJS</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Back-End:</h5>
+            <ul>
+              <li>PHP
+                <span>(PHP 7)</span>
+              </li>
+              <li>Laravel</li>
+              <li>Codeigniter</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Otros:</h5>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Bulma CSS</li>
+              <li>Axios</li>
+              <li>Git</li>
+            </ul>
           </div>
         </div>
-        <div class="hero-footer level-item is-padding-bottom-5 has-text-centered has-background-dark has-text-white" id="footer">
-          <div class="hero is-padding-top-3">
-            <div class="hero-head">
-              <i class="fas fa-2x fa-mobile-alt"></i>
-              <p class="is-large">(+54) 9 11-2252-4289</p>
-            </div>
-            <div class="hero-body is-paddingless level-item">
-              <i class="fas  fa-envelope"></i>
-              <p class="is-large is-mail">alejowasser@gmail.com</p>
-            </div>
-          </div>
+      </div>
+    </section>
+
+    <section class="container text-center">
+      <div class="alert alert-primary" role="alert">
+
+        <h2>
+          <i class="fas fa-atlas"></i>&nbsp;Proyectos:</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <figure>
+            <img src="assets/img/callejeritos.jpg" alt="Callejeritos" class="img-fluid">
+          </figure>
+          <h5>Sitio Web Callejeritos</h5>
+          <p>Este proyecto aún esta en construcción.</p>
         </div>
-      </section>
+        <div class="col-md-6 col-sm-12">
+          <figure>
+            <a href="http://mega-bikes.com.ar/" target="_blank">
+              <img src="assets/img/screen.png" alt="MegaBikes" class="img-fluid">
+            </a>
+
+          </figure>
+
+          <h5>Rediseño Web MegaBikes</h5>
+          <p>En este proyecto estuve a cargo de la maquetación y la conexión del mismo a una Base de datos.
+            <br>Se usaron tecnologías como Bootstrap,Jquery y Codeigniter.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-12">
+          <a href="#" class="social-link">
+            <i class="fab fa-twitter-square icon"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fab fa-instagram icon"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fab fa-github icon"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fab fa-linkedin icon"></i>
+          </a>
+        </div>
+      </div>
     </div>
+  </footer>
 
-  </div>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
   <script src="assets/js/script.js"></script>
 </body>
 

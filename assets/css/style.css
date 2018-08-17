@@ -1,116 +1,86 @@
 body {
-    padding-bottom: 0px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-li {
-    cursor: default;
+header {
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+#fotoPerfil {
+    width: 10%;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    background: antiquewhite;
+    width: 20%;
+    margin: 0 auto;
+}
+
+main{
+    margin-top: 2%;
+}
+
+main h2{
+    margin: 0px !important;
+}
+
+main ul{
+    margin-top: 1%;
     list-style: none;
-    color: black;
-    opacity: 0.6;
+    padding: 0px;
+    font-size: 1.15rem;
 }
 
-li:hover {
+main span{
+    font-size: 0.75rem;
+    color: grey;
+}
+
+#tools{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#about-me-text p{
+    font-size: 1.7rem;
+}
+
+.card{
+    width: 22vw;
+}
+
+footer{
+    margin-top: 5%;
+    background-color: darkcyan;
+}
+
+.social-link{
+    margin: 0px 1%;
+}
+
+.icon{
+    font-size:  7em;
+    color: aliceblue;
+    opacity: 0.3;
+}
+
+.icon:hover{
     opacity: 1;
 }
 
-.is-circular {
-    border-radius: 45%;
-    border: solid 2px black;
-}
-
-.is-200x200 {
-    width: 200px;
-    height: 200px;
-}
-
-.is-margin-top-5 {
-    margin-top: 6.5%;
-}
-
-.is-body-personalised {
-    height: 400px;
-    margin-bottom: 85px;
-    margin-top: 4%;
-}
-
-.is-padding-bottom-5 {
-    padding-bottom: 5%;
-}
-
-.is-padding-top-5 {
-    padding-top: 5%;
-}
-
-.is-padding-top-3 {
-    padding-top: 3%;
-}
-
-.is-link {
-    color: blue;
-}
-
-.is-link:hover {
-    color: blue;
-    text-decoration: underline solid blue;
-}
-
-.is-social {
-    color: #363636;
-    opacity: 0.8;
-}
-
-.is-social:hover {
-    opacity: 1;
-}
-
-.subtext {
-    font-size: 12px;
-    font-weight: lighter;
-}
-
-.is-normal-height {
-    height: 10vh;
-}
-
-.is-mega {
-    padding-left: 15px;
-}
-
-.a-none {
-    text-decoration: none !important;
-}
-
-.is-mail {
-    margin-left: 5px;
-}
-
-.is-padding{
-    padding: 0 !important;
-}
-
-@media screen and (max-width:768px) {
-    .is-body-personalised {
-        height: auto;
-        margin-bottom: 40px;
-        margin-top: 11%;
+@media screen and (max-width:768px){
+    #fotoPerfil {
+        width: 55%;
     }
-    .is-padding-bottom-5 {
-        padding-left: 10%;
+    header p{
+        width: 100%;
     }
-    #footer {
-        padding-left: 0%;
-    }
-    #is-projects {
-        padding: 0px 20px;
-    }
-    .is-padding{
-        padding: 0.75rem !important;
-    }
-}
-
-@media screen and (max-width:365px) {
-    #is-projects {
-        padding: 0px;
+    .icon{
+        font-size:  3em;
     }
 }
