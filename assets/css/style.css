@@ -44,6 +44,7 @@ main span{
 #tools{
     margin-top: 2%;
     margin-bottom: 2%;
+    overflow: hidden;
 }
 
 #about-me-text p{
@@ -71,6 +72,10 @@ footer{
 
 .icon:hover{
     opacity: 1;
+}
+
+.aos-item{
+    overflow-x: hidden;
 }
 
 .tools-list li{
