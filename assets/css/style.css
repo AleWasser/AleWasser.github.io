@@ -1,5 +1,6 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
+    cursor: default !important;
 }
 
 header {
@@ -80,7 +81,6 @@ footer{
 
 .tools-list li{
     opacity: 0.5;
-    cursor: pointer;
 }
 
 .tools-list li:hover{
