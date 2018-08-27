@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    background-color: lightcoral;
+    background-image: url("../img/back6.jpg");
+    /* background-color: lightcoral; */
     padding: 20px;
 }
 
@@ -14,6 +15,7 @@ header {
 
 header h1 {
     font-size: 2rem;
+    font-weight: bold;
 }
 
 header p {
@@ -58,7 +60,7 @@ main span{
 
 footer{
     margin-top: 5%;
-    background-color: darkcyan;
+    background-color: darkslategray;
 }
 
 .social-link{
