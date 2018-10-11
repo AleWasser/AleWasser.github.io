@@ -3,6 +3,26 @@ body {
     cursor: default !important;
 }
 
+.marginless{
+    margin: 0px;
+}
+
+.hidden{
+    display: none;
+}
+
+.aviso{
+    background-color: darkorange;
+    position: fixed;
+    z-index: 99;
+    padding-top: 0.3%;
+    padding-bottom: 0.2%
+}
+
+.aviso-icon{
+    cursor: pointer;
+}
+
 header {
     background-image: url("../img/back6.jpg");
     /* background-color: lightcoral; */
