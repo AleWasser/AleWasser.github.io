@@ -1,9 +1,13 @@
 <template>
-    <v-layout row justify-center ma-3 px-5>
-        <v-flex xs8>
+    <v-layout row wrap justify-center ma-3 px-5>
+        <v-flex xs12 md8 pr-2>
             <h1>Sobre mi</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni harum repudiandae, ut tenetur et assumenda laudantium, doloremque illo commodi illum necessitatibus obcaecati aspernatur nam recusandae aperiam quasi odit, accusamus ipsum?Ducimus dolorum harum corporis earum facilis velit tempora veritatis, sequi iste dolores voluptate expedita architecto, esse aliquam nulla. Odio vitae a ipsam voluptates nostrum cumque dolorem nisi doloremque laborum minima?</p>
+            <p
+                class="body-2"
+            >Soy Desarrollador Web Full-Stack junior. Cuento con 1 año de experiencia desarrollando sitios web y capacitandome en las ultimas tecnologias, siempre muy curioso y dispuesto a aprender. Actualmente me encuentro trabajando en la Asociacion Medica de Almirante Brown.</p>
         </v-flex>
-        <v-flex xs4>Hello world!</v-flex>
+        <v-flex xs12 md4>
+            <v-img src="/img/image.jpg" aspect-ratio="1.4" />
+        </v-flex>
     </v-layout>
 </template>

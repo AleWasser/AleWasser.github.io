@@ -10,7 +10,7 @@
             fill-height
             style="background-color:rgba(255, 255, 255, 0.5)"
         >
-            <vue-typer class="display-2 font-weight-thin mb-3" text="Alejo Wasser"></vue-typer>
+            <vue-typer class="mb-3" :text="['Alejo Wasser', 'Desarrollador Web']"></vue-typer>
         </v-layout>
     </v-img>
 </template>
@@ -23,3 +23,10 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+.vue-typer {
+    font-family: "Special Elite", cursive;
+    font-size: 30px;
+}
+</style>
